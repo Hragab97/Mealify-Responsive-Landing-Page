@@ -1,0 +1,847 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Amatic SC", sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* ---------------------HOME SECTION STYLING---------------------- */
+
+.home {
+    text-align: center;
+    margin: auto;
+    background-color: #eeeeee;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    background-color: white;
+    height: 80px;
+}
+
+.logo a span {
+    top: 14px;
+    position: absolute;
+    font-family: "Assistant", sans-serif;
+    left: 30px;
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.logo a span.dot {
+    color: #ce1212;
+    font-size: 40px;
+    font-weight: 700;
+    left: 140px;
+    top: 13px;
+}
+
+.navbar ul li {
+    top: 10px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 2px;
+    width: 0;
+    background-color: #ce1212;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    transition: 0.2s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%
+}
+
+.fa-moon {
+    position: absolute;
+    font-size: 25px;
+    cursor: pointer;
+    top: 25px;
+    right: 50px;
+}
+
+.fa-bars {
+    position: absolute;
+    font-size: 25px;
+    cursor: pointer;
+    top: 25px;
+    right: 20px;
+}
+
+
+.home h1 {
+    font-size: 60px;
+}
+
+.home p,
+a {
+    font-family: "Assistant", sans-serif;
+}
+
+.home p {
+    top: -75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.intro {
+    width: 100%;
+    float: left;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.home .container img {
+    position: relative;
+    margin-top: 100px;
+    width: 90%;
+    filter: drop-shadow(4px 4px 10px);
+    margin-bottom: 100px;
+}
+
+.home .container img:hover {
+
+    animation: image 0.2s infinite alternate-reverse;
+
+}
+
+@keyframes image {
+    50% {
+        transform: rotate(-2deg);
+        margin-top: 97px;
+        margin-bottom: 103px;
+
+    }
+
+    100% {
+        transform: rotate(2deg);
+        margin-top: 97px;
+        margin-bottom: 103px;
+    }
+
+}
+
+
+.home a.book {
+    top: -30px;
+    color: white;
+    text-decoration: none;
+    background-color: #ce1212;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+.home a i {
+    top: -30px;
+    background-color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 10px;
+    border-left: 8px #ce1212 solid;
+    color: #37373f;
+    margin-left: 20px;
+
+}
+
+.home a {
+    top: -30px;
+    text-decoration: none;
+    color: #37373f;
+    font-weight: 600;
+    font-size: 12px;
+
+}
+
+.home a i:hover {
+    transition: 0.5s ease;
+    color: #ce1212
+}
+
+.watch:hover {
+    transition: 0.5s ease;
+    color: #ce1212
+}
+
+.home a.book:hover {
+    background-color: red;
+    transition: 0.5s ease;
+}
+
+/* ---------------------OUR CHEFS SECTION STYLING---------------------- */
+
+
+.our-chefs {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.chefs-gallery {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.chefs-item {
+    margin-top: 20px;
+    width: 90%;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    overflow: hidden;
+    margin-bottom: 50px;
+    box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.1)
+}
+
+.chefs-item .caption {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+
+.chefs-item .caption h3,
+h4,
+.caption-text {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    font-family: "Assistant", sans-serif;
+
+}
+
+.chefs-item .caption span {
+    display: block;
+    width: 100%;
+    font-family: "Assistant", sans-serif;
+    color: #7f7f90;
+    font-style: italic;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+
+.chefs-item .caption h3,
+h4 {
+    font-family: "Assistant", sans-serif;
+    color: #7f7f90;
+}
+
+.chefs-item .caption h3 {
+    font-family: "Assistant", sans-serif;
+    color: black;
+}
+
+
+.chefs-item .caption h4 {
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+
+.chefs-item .caption h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.chefs-item img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.img-overlay-wrap {
+    position: relative;
+    display: inline-block; /* <= shrinks container to image size */
+    transition: transform 150ms ease-in-out;
+  }
+  
+  .img-overlay-wrap img { /* <= optional, for responsiveness */
+     display: block;
+     max-width: 100%;
+     height: auto;
+  }
+  
+  .img-overlay-wrap svg {
+    position: absolute;
+    top: 240px;
+    left: 0;
+  }
+
+.chefs-item:hover {
+    transform: scale(1.05);
+    overflow: hidden;
+
+}
+
+.chefs-item .icons ul {
+    background-color: rgba(122, 122, 122, 0.5);
+    position: absolute;
+    width: 40px;
+    height: 160px;
+    list-style-type: none;
+    top: 70px;
+    left: 100%;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: 0.5s 0.5s ease;
+    opacity: 0;
+
+}
+
+.chefs-item:hover ul {
+    left: 80%;
+    overflow: hidden;
+    opacity: 1;
+
+}
+
+.chefs-item .icons ul li a {
+    color: white;
+    font-size: 20px;
+    transition: 0.5s ease;
+}
+
+.chefs-item .icons ul li a:hover {
+    color: #ce1212;
+}
+
+.chefs-item .icons ul li a i {
+    padding: 10px;
+}
+
+.our-chefs .container .title {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.title .subtitle {
+    font-size: 15px;
+    font-family: "Assistant", sans-serif;
+    color: #7f7f90;
+    margin-top: 150px;
+}
+
+.title h2 {
+    font-size: 50px;
+    color: #212529;
+    font-weight: 500;
+
+}
+
+.title h2 span {
+    color: #ce1212;
+}
+
+
+/* ---------------------GALLERY SECTION STYLING---------------------- */
+
+
+.gallery {
+    background-color: #eeeeee;
+}
+
+.gallery .container {
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.container .title {
+    margin-bottom: 20px;
+}
+
+.image {
+    position: relative;
+    overflow: hidden;
+}
+
+.image .caption {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translateY(110%);
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.image .caption h3 {
+    font-size: 25px;
+
+}
+
+
+.image .caption h3,
+p {
+    margin: 10px;
+    line-height: 1.2;
+    position: relative;
+    font-family: "Assistant", sans-serif;
+    transform: translateY(110%);
+
+}
+
+.image:hover .caption {
+    opacity: 1;
+    transform: translateY(0);
+
+}
+
+
+
+
+.gallery .column .image img {
+    width: 100%;
+    height: 100%;
+    border: 5px white solid;
+    object-fit: cover;
+    transition: 0.3s ease;
+}
+
+.image:hover img {
+    transform: scale(1.2);
+
+}
+
+
+.photo-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+
+.gallery .title {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.gallery .title .subtitle {
+    font-size: 15px;
+    font-family: "Assistant", sans-serif;
+    color: #7f7f90;
+}
+
+.gallery .title h2 {
+    font-size: 50px;
+    color: #212529;
+    font-weight: 500;
+
+}
+
+.gallery .title h2 span {
+    color: #ce1212;
+
+}
+
+
+/* ---------------------CONTACT US STYLING---------------------- */
+
+.contact-us {
+    width: 100%;
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left;
+}
+
+.contact-us .title {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.contact-us .title .subtitle {
+    font-size: 15px;
+    font-family: "Assistant", sans-serif;
+    color: #7f7f90;
+}
+
+.contact-us .title h2 {
+    font-size: 50px;
+    color: #212529;
+    font-weight: 500;
+
+}
+
+.contact-us .title h2 span {
+    color: #ce1212;
+}
+
+.contact-info {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contact-item {
+    width: 100%;
+    background-color: #eeeeee;
+    padding: 1%;
+    margin: 0.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.contact-item .caption {
+    display: inline-block;
+}
+
+.contact-item i {
+    margin-right: 2%;
+    background-color: #ce1212;
+    color: white;
+    font-size: 20px;
+    padding: 17px;
+    border-radius: 50%;
+
+}
+
+.contact-item .caption h3 {
+    font-family: "Assistant", sans-serif;
+    color: #7d7d7d;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.contact-item .caption a {
+    font-family: "Assistant", sans-serif;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.contact-item .caption h4 {
+    font-family: "Assistant", sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+.contact-item .caption #bold {
+    font-family: "Assistant", sans-serif;
+    color: black;
+    font-weight: 700;
+}
+
+.input #name,
+#email {
+    width: 100%;
+    margin-top: 20px;
+}
+
+form {
+    width: 100%;
+    padding-top: 40px;
+}
+
+#subject {
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+#message {
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+form .input input,
+textarea {
+    font-family: "Assistant", sans-serif;
+    padding: 10px;
+    outline: 0;
+    border: 3px solid #eeeeee;
+    color: black;
+    background: transparent;
+    font-size: 15px;
+}
+
+#submit {
+    margin: 2%;
+    font-size: 15px;
+    width: 150px;
+    padding: 2%;
+    background-color: #ce1212;
+    border: 1px solid #ce1212;
+    color: white;
+    border-radius: 50px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+}
+
+#submit:hover {
+    background-color: red;
+    transition: 0.5s ease;
+}
+
+
+
+.maps iframe {
+    width: 100%;
+}
+
+
+/* ---------------------FOOTER SECTION STYLING---------------------- */
+
+footer {
+    color: white;
+    background-image: linear-gradient(#0009, #0009), url(images/footer/textured-metal-background.jpg);
+    background-size: contain;
+    display: block;
+}
+
+
+footer .container {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+padding: 2%;
+margin-left: 10px;
+}
+
+.section-one {
+    width: 100%;
+}
+
+.section-two {
+    width: 100%;
+}
+.section-three {
+    width: 100%;
+}
+
+.section-one h4 {
+    color: white;
+    margin-top: 10px;
+}
+
+.section-one h3 {
+    font-family: "Assistant", sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 23px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.644);
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+.section-one .icons{
+    text-align: center;
+}
+
+
+.section-one .icons ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 3%;
+    font-size: 25px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.section-one .icons ul li a{
+   color: white;
+}
+
+.section-two h3 {
+    font-family: "Assistant", sans-serif;
+    margin-top: 10px;
+    font-size: 23px;
+}
+
+.section-two h4 {
+    color: white;
+    margin-top: 10px;
+}
+
+.section-two form {
+    padding-top: 20px;
+    
+}
+
+.section-two .mail-form {
+    width: 100%;
+    margin: auto;
+}
+
+.section-two .mail-form #email {
+    font-family: "Assistant", sans-serif;
+    margin-top: 10px;
+    padding: 9px;
+}
+
+.section-two .mail-form button {
+    background-color: #ce1212;
+    border: 0;
+    font-family: "Assistant", sans-serif;
+    color: white;
+    font-size: 17px;
+    padding: 9px;
+    transition: 0.5s ease;
+}
+
+.section-two .mail-form button:hover {
+    background-color: red;
+    cursor: pointer;
+
+}
+
+.section-two ul {
+    margin-right: 100px;
+}
+
+.section-two ul li {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px;
+    margin-left: 0;
+    padding-right: 90px;
+}
+
+.section-two ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.section-two ul li a i{
+    margin-right: 5px;
+}
+
+.section-two ul li {
+   transition: 0.5s ease;
+}
+
+.section-two ul li:hover {
+    background-color: #575757;
+    margin-left: 10px;
+}
+
+.section-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section-one .section-logo .logo span {
+    font-family: "Assistant", sans-serif;
+    font-size: 35px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.section-logo .logo .dot {
+    margin-left: 0;
+}
+ 
+.section-one .logo span{
+    position: relative;
+    color: white;
+}
+
+.section-one .logo .dot{
+    position: relative;
+    color: red;
+}
+ 
+.section-one img {
+    width: 50px;
+}
+
+.quick-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.section-three h3 {
+    font-family: "Assistant", sans-serif;
+    margin-top: 10px;
+    font-size: 23px;
+}
+
+.section-three ul li {
+    font-family: "Assistant", sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.section-three ul li i{
+    font-size: 20px;
+    color: #ce1212;
+    margin-right: 20px;
+}
+
+.section-three ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.clr-fix {
+    clear: both;
+}

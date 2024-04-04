@@ -1,0 +1,458 @@
+/* Small devices such as small phones*/
+@media screen and (min-width: 375px) {
+
+    .home p {
+        top: -60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .img-overlay-wrap svg {
+        position: absolute;
+        top: 280px;
+        left: 0;
+      }
+}
+
+
+/* Small devices such as small phones*/
+@media screen and (min-width: 425px) {
+
+    .home p {
+        top: -60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .img-overlay-wrap svg {
+        position: absolute;
+        top: 310px;
+        left: 0;
+      }
+}
+
+
+
+/* Small devices such as small phones*/
+@media screen and (min-width: 576px) {
+
+    .home p {
+        top: -20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+/* Small devices such as large phones*/
+@media screen and (min-width: 640px) {
+
+    .home a {
+        font-size: 17px;
+
+    }
+
+    .home a i {
+        font-size: 20px;
+        padding: 10px;
+        border-left: 8px #ce1212 solid;
+    }
+
+
+
+}
+
+/* Medium devices such as tablets*/
+@media screen and (min-width: 768px) {
+
+
+
+    .navbar {
+        position: fixed;
+        z-index: 1;
+    }
+
+    .home p {
+        top: -90px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .home a {
+        font-size: 12px;
+
+    }
+
+    .home a i {
+        font-size: 15px;
+        padding: 10px;
+        border-left: 8px #ce1212 solid;
+    }
+
+    .intro {
+        text-align: left;
+        width: 50%;
+        float: left;
+        padding: 10%;
+        line-height: 1.5;
+        padding-left: 5%;
+        padding-top: 15%;
+        padding-right: 12%;
+    }
+
+    .home .container img {
+        position: absolute;
+        width: 48%;
+        right: 60px;
+    }
+
+    .fa-bars {
+        visibility: hidden;
+    }
+
+    .photo-gallery {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        gap: 20px
+    }
+
+    .home .container {
+        padding-top: 50px;
+    }
+
+    .contact-item {
+        width: 49%;
+        background-color: #eeeeee;
+        padding: 1%;
+        margin: 0.5%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .input #name,
+    #email {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+
+    .img-overlay-wrap svg {
+        position: absolute;
+        top: 490px;
+        left: 0;
+      }
+
+}
+
+
+/* Large devices such as laptops*/
+@media screen and (min-width: 1024px) {
+
+    .home {
+        height: 80vh;
+    }
+
+
+    .navbar {
+        position: fixed;
+        z-index: 1;
+    }
+
+    .home p {
+        top: -70px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+    .intro {
+        text-align: left;
+        width: 50%;
+        float: left;
+        padding: 10%;
+        line-height: 1.5;
+        padding-left: 5%;
+        padding-top: 15%;
+        padding-right: 12%;
+    }
+
+    .home .container img {
+        position: absolute;
+        width: 48%;
+        right: 60px;
+    }
+
+    .home a {
+        font-size: 17px;
+
+
+    }
+
+    .home a i {
+        font-size: 20px;
+        padding: 10px;
+        border-left: 8px #ce1212 solid;
+    }
+
+    .home .container {
+        padding-top: 50px;
+    }
+
+    .chefs-gallery {
+        width: 90%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        gap: 40px;
+    }
+
+    .contact-item {
+        width: 49%;
+        background-color: #eeeeee;
+        padding: 1%;
+        margin: 0.5%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .input #name,
+    #email {
+        width: 49.65%;
+        margin: 0.1%;
+    }
+
+    #submit {
+        margin: 2%;
+        font-size: 15px;
+        width: 150px;
+        padding: 2%;
+        background-color: #ce1212;
+        border: 1px solid #ce1212;
+        color: white;
+        border-radius: 50px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        width: 15%;
+        margin-left: 42%;
+    }
+
+    .section-one {
+        width: 25%;
+    }
+    
+    .section-two {
+        width: 47%;
+    }
+    .section-three {
+        width: 22%;
+    }
+
+    .section-two .mail-form {
+        width: 150%;
+        margin: auto;
+    }
+
+    footer .container {
+        margin-left: 30px;
+        }
+
+        .img-overlay-wrap svg {
+            position: absolute;
+            top: 230px;
+            left: 0;
+          }
+
+}
+
+
+/* Largest devices such as desktops*/
+@media screen and (min-width: 1280px) {
+
+    .home {
+        height: 100vh;
+    }
+
+    .navbar {
+        position: fixed;
+        z-index: 1;
+    }
+
+    .home p {
+        top: -50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .into {
+        text-align: left;
+        width: 50%;
+        float: left;
+        padding: 10%;
+        line-height: 1.5;
+        padding-left: 5%;
+        padding-top: 15%;
+        padding-right: 12%;
+    }
+
+    .home .container img {
+        position: absolute;
+        width: 38%;
+        right: 60px;
+    }
+
+    .home .container {
+        padding-top: 50px;
+    }
+
+    .home a {
+        font-size: 17px;
+
+    }
+
+    .home a i {
+        font-size: 20px;
+        padding: 10px;
+        border-left: 8px #ce1212 solid;
+    }
+
+
+    .photo-gallery {
+        display: flex;
+        gap: 20px;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        gap: 20px
+    }
+
+    .chefs-gallery {
+        width: 90%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        margin: auto;
+        gap: 40px;
+    }
+
+
+    .contact-item {
+        width: 49%;
+        background-color: #eeeeee;
+        padding: 1%;
+        margin: 0.5%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .input #name,
+    #email {
+        width: 49.694%;
+        margin: 0.1%;
+    }
+
+    #submit {
+        text-align: center;
+        margin: 2%;
+        font-size: 15px;
+        width: 150px;
+        padding: 2%;
+        background-color: #ce1212;
+        border: 1px solid #ce1212;
+        color: white;
+        border-radius: 50px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        width: 15%;
+        margin-left: 42%;
+    }
+
+    .section-one {
+        width: 25%;
+    }
+    
+    .section-two {
+        width: 47%;
+    }
+    .section-three {
+        width: 22%;
+    }
+
+    .section-two .mail-form {
+        width: 150%;
+        margin: auto;
+    }
+
+    footer .container {
+        margin-left: 30px;
+        }
+
+        .img-overlay-wrap svg {
+            position: absolute;
+            top: 280px;
+            left: 0;
+          }
+
+}
+
+/* Largest devices such as desktops*/
+@media screen and (min-width: 1440px) {
+
+    .home {
+        height: 100vh;
+    }
+
+
+    .img-overlay-wrap svg {
+        position: absolute;
+        top: 320px;
+        left: 0;
+      }
+
+      .chefs-item {
+        width: 50%;
+    }
+    
+}
+
+
+/* Small devices such as large phones*/
+@media screen and (max-width: 700px) {
+
+    .navbar ul li {
+        visibility: hidden;
+    }
+
+
+}
+
+/* Medium devices such as tablets*/
+@media screen and (max-width: 768px) {
+    .photo-gallery {
+        flex-direction: column;
+    }
+}
